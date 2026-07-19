@@ -1,0 +1,16 @@
+
+# checkpoints de modelo (muito grandes pro Git)
+*.pt
+*.pth
+checkpoint_*.pt
+
+# dataset (nunca deve ir pro Git)
+data/
+*.zip
+
+# cache do Python
+__pycache__/
+*.pyc
+
+# ambiente
+.env
